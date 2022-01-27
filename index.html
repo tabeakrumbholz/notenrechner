@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>notenrechner</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+<h1>Kostenfreier notenberechner._.</h1>
+<img src="img/bertholt.jpg" height="230" width="455"/>
+
+<p>Gib deine Punkte!</p>
+<p>Deine Punkte:</p> <p id="ausgabe"> </p>
+<!-- Numeric Textfield -->
+<form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tfNote1">
+        <label class="mdl-textfield__label" for="tfNote1">punkte...</label>
+        <span class="mdl-textfield__error">digga nh zahl!</span>
+    </div>
+</form>
+<!-- Numeric Textfield -->
+<form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tfNote2">
+        <label class="mdl-textfield__label" for="tfNote2">punkte...</label>
+        <span class="mdl-textfield__error">digga nh zahl!</span>
+    </div>
+</form>
+<!-- Numeric Textfield -->
+<form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tfNote3">
+        <label class="mdl-textfield__label" for="tfNote3">punkte...</label>
+        <span class="mdl-textfield__error">digga nh zahl!</span>
+    </div>
+</form>
+<!-- Numeric Textfield -->
+<form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tfNote4">
+        <label class="mdl-textfield__label" for="tfNote4">punkte...</label>
+        <span class="mdl-textfield__error">digga nh zahl!</span>
+    </div>
+</form>
+<!-- Numeric Textfield -->
+<form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tfNote5">
+        <label class="mdl-textfield__label" for="tfNote5">punkte...</label>
+        <span class="mdl-textfield__error">digga nh zahl!</span>
+    </div>
+</form>
+<!-- Colored icon button -->
+<button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored" onclick="tfAuslesen()">
+    <i class="material-icons">mood</i>
+</button>
+
+
+</body>
+</html>
