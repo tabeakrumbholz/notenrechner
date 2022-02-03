@@ -7,6 +7,7 @@ let summe = 0;
 let anzahlNoten = 0;
 let ergebnis;
 
+//noten auslesen
 
 function tfAuslesen(){
     anzahlNoten=0
@@ -29,6 +30,8 @@ function tfAuslesen(){
 
     document.getElementById("ausgabe").innerHTML = ergebnis;
 
+    //Farbänderung je nach Punktzahl
+
     if (ergebnis < 6) {document.getElementById("ausgabe").style.color = "crimson"}
     else {document.getElementById("ausgabe").style.color = "orange"}
 
@@ -46,3 +49,6 @@ function eingabeUeberpruefung(punkte) {
         summe = summe + punkte;
     }
 }
+
+//funktion mit Array
+
